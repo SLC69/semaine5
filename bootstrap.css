@@ -1,0 +1,48 @@
+.nav-link {
+    color : white;
+    font-size: 20px;
+}
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.jumbotron, .jumbotron-fluid{
+    background: url('chocolat.jpg') no-repeat center center;
+    background-size: cover;
+    height: 20em
+   }
+
+.display-4 {
+    color: orange;
+    font-size: 50px;
+    font-weight: bold;
+}
+.lead {
+    color: orange;
+    font-size: 30px;
+}
+
+.col-4{
+    background: white;
+    color: black;
+    border: 2px white solid;
+}
+
+.row{
+text-align: justify;
+padding-left: 30px;
+padding-right: 30px;
+
+}
+
+.monBoutton {
+    background-color:chocolate;
+    Color:white;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 3px;
+    cursor: pointer; 
+    box-shadow: 0 8px 16px 0 grey;
+    text-decoration: none;
+  }
